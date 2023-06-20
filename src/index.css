@@ -15,3 +15,26 @@
     transform: rotate(360deg);
   }
 } */
+
+
+/* ------------------ HEADER ------------------ */
+
+#header-container {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+#header-child-div-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.header-h1 {
+  font-size: 50px;
+}
+
+#circle_photo {
+  max-width: 400px;
+}
