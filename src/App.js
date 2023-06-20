@@ -1,5 +1,6 @@
 import './index.css';
 
+import Nav from './Components/Nav';
 import Header from './Components/Header';
 import About from './Components/About';
 import Skills from './Components/Skills';
@@ -9,6 +10,7 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <>
+      <Nav />
       <Header />
       <About />
       <Skills />
